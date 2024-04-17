@@ -1,0 +1,13 @@
+{
+	"name": "wm-shape",
+	"version": "1.0.0",
+	"description": "A custom web component for a shape with configurable properties.",
+	"main": "src/index.js",
+	"type": "module",
+	"scripts": {
+	  "test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": ["web-component", "shape", "custom-element"],
+	"author": "Wonder Makers",
+	"license": "MIT"
+  }
