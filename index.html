@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Shape Component Test</title>
+    <script type="module" src="./super-shape.js"></script>
+</head>
+<body style="min-height: 100dvh; display: flex; align-items:center;  justify-content:center; background: #1a0c2f; color: white">
+	<svg width="64" height="128" viewBox="0 0 64 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path d="M63.5 0.5V127.5H0.5V10.2071L10.2071 0.5H63.5Z" stroke="black"/>
+		</svg>
+		
+	<svg width="66" height="130" viewBox="0 0 66 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path d="M1 11L11 1H65V129H1L1 11Z" stroke="black"/>
+		</svg>
+		
+
+	<super-shape
+		border-width="1"
+		bg-from="#3E226B"
+		bg-to="#23103F"
+		border-from="#904AFF"
+		border-to="#67D7F9"
+		tr="24"
+		bl="24"
+		style="display:flex;"
+		>
+		<div class="">
+			<h1>Super Shape</h1>
+			<p>Super Shape is a web component that allows you to create shapes with gradient backgrounds and borders.</p>
+		</div>
+		</super-shape>
+
+</body>
+</html>
+
+<style>
+	.brekek {
+		height: 400px;
+		width: 400px;
+	}
+</style>
